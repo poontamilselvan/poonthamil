@@ -1,18 +1,18 @@
 #include <stdio.h>
 int main()
 {
-    int number, originalNumber, remainder, result = 0;
+    int number, onum, rem, result = 0;
 
     printf("Enter a three digit integer: ");
     scanf("%d", &number);
 
-    originalNumber = number;
+    oNum = number;
 
-    while (originalNumber != 0)
+    while (oNum != 0)
     {
-        remainder = originalNumber%10;
-        result += remainder*remainder*remainder;
-        originalNumber /= 10;
+        rem = oNum%10;
+        result += rem*rem*rem;
+        oNum /= 10;
     }
 
     if(result == number)
