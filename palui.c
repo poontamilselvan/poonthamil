@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main()
-{
-    int n, reversedInteger = 0, remainder, originalInteger;
+{ int n, reversedInteger = 0, remainder, originalInteger;
  printf("Enter an integer: ");
     scanf("%d", &n);
 
